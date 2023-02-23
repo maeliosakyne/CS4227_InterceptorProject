@@ -25,7 +25,6 @@ public class RentalContext {
     }
     
     //get the price
-
     public Price getPrice() {
         return price;
     }
