@@ -16,7 +16,7 @@ public class InterceptorDispatcher {
     }
     
     //dispatch a message to all the interceptors in the list
-    public void dispatchInterceptor(String message) {
+    public void dispatch(String message) {
         for(LoggingInterceptor interceptor : interceptors ) {
             interceptor.log(message);
         }
